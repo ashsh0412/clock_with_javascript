@@ -1,0 +1,38 @@
+body {
+  background-color: #f3f0f0;
+}
+body {
+  color: #f0e8e6;
+}
+.clicked {
+  color: #f4faf5;
+}
+input {
+  color: rgb(5, 0, 0);
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
+
+@keyframes fadeIN {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.3s linear;
+}
